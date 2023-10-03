@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "hackathon-velib"
+version = "0.1.0"
+description = ""
+authors = ["Louis Marx <louis.marx@sicara.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = { version = "^1.26.0", python = ">=3.11,<3.13" }
+pandas = "^2.1.1"
+openpyxl = "^3.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
